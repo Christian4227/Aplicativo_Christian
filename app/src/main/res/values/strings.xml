@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Intent_Aplication</string>
+    <string name="descr_img">Conversão entre unidades - SI e Sistema de Unidades EUA antigo</string>
+    <string name="limpar">Limpar</string>
+    <string name="valor">Valor</string>
+    <string name="calcular">Calcular</string>
+    <string name="indice">Índice_M</string>
+    <string name="valor_vazio">Caixa de texto vazio</string>
+    <string name="polegada">Polegada</string>
+    <string name="centimetro">Centímetro</string>
+    <string name="pes">Pés</string>
+    <string name="metros">Metros</string>
+    <string name="milha">Milha</string>
+    <string name="quilometro">Quilometros</string>
+    <string name="celsius">Celsius</string>
+    <string name="farenheint">Farenheint</string>
+    <string name="nos">Nós</string>
+    <string name="km_h">Km/h</string>
+    <string name="si_complemento">Unidade de Medida - SI</string>
+    <string name="unidade_antiga">Unidade de Medida Antiga - EUA</string>
+    <string name="mensagemerro">Digite um valor entre 1 e 2</string>
+    <string-array name="itensLista">
+        <item>Polegada para centímetro</item>
+        <item>Pés em metros</item>
+        <item>Milha em km</item>
+        <item>Graus Celsius em Farenheint</item>
+        <item>Nós em km/h</item>
+    </string-array>
+    <string-array name="opcao">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>
