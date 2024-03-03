@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Intent_Aplication</string>
+    <string name="app_name">ConversorDeMedidas</string>
     <string name="descr_img">Conversão entre unidades - SI e Sistema de Unidades EUA antigo</string>
     <string name="limpar">Limpar</string>
     <string name="valor">Valor</string>
@@ -20,6 +20,7 @@
     <string name="unidade_antiga">Unidade de Medida Antiga - EUA</string>
     <string name="mensagemerro">Digite um valor entre 1 e 2</string>
     <string-array name="itensLista">
+        <item>Selecione…</item>
         <item>Polegada para centímetro</item>
         <item>Pés em metros</item>
         <item>Milha em km</item>

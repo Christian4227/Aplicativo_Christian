@@ -46,7 +46,8 @@
             android:layout_weight="2"
             android:background="#F6F0F0"
             android:backgroundTint="#8BC34A"
-            android:entries="@array/itensLista" />
+            android:entries="@array/itensLista"
+            tools:ignore="TouchTargetSizeCheck" />
 
     </LinearLayout>
 
@@ -83,9 +84,10 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
+            android:contentDescription="@string/descr_img"
             android:onClick="btnTrocar"
             app:srcCompat="@drawable/seta_direita"
-            android:contentDescription="@string/descr_img" />
+            tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
             android:id="@+id/textView2"
@@ -193,7 +195,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="4"
             android:onClick="btnEnviaGmail"
-            app:srcCompat="@drawable/gmail" />
+            app:srcCompat="@drawable/gmail"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
         <ImageView
             android:id="@+id/imageWhats"
@@ -201,7 +204,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="4"
             android:onClick="btnEnviaWhatsapp"
-            app:srcCompat="@drawable/whatsapp_icone" />
+            app:srcCompat="@drawable/whatsapp_icone"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
         <ImageView
             android:id="@+id/imageMessernger"
@@ -209,7 +213,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="4"
             android:onClick="btnEnviaGoogleDocs"
-            app:srcCompat="@drawable/google_drive" />
+            app:srcCompat="@drawable/google_drive"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
